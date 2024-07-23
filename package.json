@@ -1,0 +1,30 @@
+{
+  "name": "authnito",
+  "version": "1.0.0",
+  "description": "A Node.js module for AWS Cognito user authentication using TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  }
+  ,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sainithink/authnito.git"
+  },
+  "keywords": ["aws",
+  "cognito",
+  "authentication",
+  "typescript"],
+  "author": "sainithink <sainithin.karra@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/sainithink/authnito/issues"
+  },
+  "homepage": "https://github.com/sainithink/authnito#readme",
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity-provider": "^3.616.0",
+    "@types/node": "^20.14.11",
+    "typescript": "^5.5.4"
+  }
+}
